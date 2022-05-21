@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangfire.Demo.WorkerService", "Hangfire.Demo.WorkerService.csproj", "{8CFFFD65-0B21-4DA6-921F-63D72AB0AEB1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hangfire.Demo.Shared", "..\..\shared\Hangfire.Demo.Shared\Hangfire.Demo.Shared.csproj", "{9C6124BE-3BFF-4224-8795-773F3EFD6EA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CFFFD65-0B21-4DA6-921F-63D72AB0AEB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CFFFD65-0B21-4DA6-921F-63D72AB0AEB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CFFFD65-0B21-4DA6-921F-63D72AB0AEB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CFFFD65-0B21-4DA6-921F-63D72AB0AEB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C6124BE-3BFF-4224-8795-773F3EFD6EA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C6124BE-3BFF-4224-8795-773F3EFD6EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C6124BE-3BFF-4224-8795-773F3EFD6EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C6124BE-3BFF-4224-8795-773F3EFD6EA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B4783A1-B3F1-41D8-905C-5F109D943A22}
+	EndGlobalSection
+EndGlobal

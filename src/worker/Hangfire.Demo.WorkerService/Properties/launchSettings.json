@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "Hangfire.Demo.WorkerService": {
+      "commandName": "Project",
+      "commandLineArgs": "ServerName=koni",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
