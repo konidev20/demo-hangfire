@@ -22,6 +22,7 @@ namespace Hangfire.Demo.WorkerService
                     services.AddHangfireServer(serverOptions =>
                     {
                         serverOptions.ServerName = hostContext.Configuration["ServerName"];
+                        serverOptions.Queues = new[] { hostContext.Configuration["QueueName"] };
                     });
                 })
                 .Build();
